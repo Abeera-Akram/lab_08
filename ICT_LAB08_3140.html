@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+ background-color:lightgrey;
+}
+h1
+{
+ text-align: center;
+ color: red;
+}
+table
+{ 
+ margin: auto;
+ border: 2px black;
+ background-color: lightblue;
+}
+td
+{
+ border: 2px solid black;
+ padding: 10px;
+}
+th
+{
+ border: 2px solid black;
+}
+
+
+</style>
+</head>
+
+<body>
+<h1>CONTINENTAL HOTEL RESERVATION FORM</h1>
+
+<table>
+ <tr>
+
+   <td><label for"fname" >NAME</label></td>
+   <td><input type="text" id="fname" placeholder="Enter your name"></td>
+
+ </tr>
+ <tr>
+ 
+   <td><label for="email">eMail</label></td>
+   <td><input type="email" id="email" placeholder="info@continental.pk"></td>
+
+ </tr>
+ <tr>
+
+  <td><label for="number">Mobile No</label></td>
+  <td><input type="number" id="number" placeholder="Enter your cell number"></td>
+   
+
+ </tr>
+ <tr> 
+  
+    <td><label for="time">Arrival time</label></td>
+    <td><input type="time" id="time" placeholder="Enter your arrival time"></td>
+ 
+ </tr>
+ <tr> 
+
+   <td><label for="departure">Departure</label></td>
+   <td><input type="date" id="depature">
+   <input type="time" id="departure"></td>
+   
+ </tr> 
+ <tr>
+
+  <td><label for="room">Room type</td>
+  <td> 
+    <input type="radio" name="pick one">single
+    <input type="radio" name="pick one">double
+    <br>
+    <input type="radio" name="pick one">Presidential Suite
+  </td>     
+ </tr>
+ <tr> 
+  <td><label for="preferences">Preferences</label></td>
+  <td>
+    <input type="checkbox">Non-smoking<br>
+    <input type="checkbox">Internet<br>
+    <input type="checkbox">Firm mattress
+  </td>
+ </tr> 
+ <tr> 
+   
+  <td><label for="payment">Mode of payment</label></td>
+  <td>
+    <input type="checkbox" id="payment">Cash
+    <input type="checkbox" id="payment">Check
+    <br>
+    <input type="checkbox" id="payment">Credit card
+    <input type="submit" value="Select card">
+   </td>
+ </tr>
+ <tr>
+   <th colspan="2"><input type="submit" value="Send Data"</th>
+ </tr>
+</table>
+
+
+
+</body>
+</html>
